@@ -42,7 +42,7 @@ int Train::getLength() {
 
     cur->light = false;
 
-    for (int i = 0; i < dist; i--) {
+    for (int i = 0; i < dist; i++) {
       cur = cur->prev;
       countOp++;
     }
